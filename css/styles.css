@@ -1,0 +1,225 @@
+:root {
+  /* Fonts */
+  --primary-font: 'roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* Text colors */
+
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-novy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-white: #ffffff;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 18px;
+
+  letter-spacing: 0.02em;
+  color: var(--color-novy-blue);
+}
+
+/* Header styles */
+
+/* logo */
+
+.header-logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-novy-blue);
+}
+
+.header-logo-blue {
+  color: var(--color-iris);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--color-novy-blue);
+}
+
+li {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-ocean);
+}
+.header-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--color-ocean);
+}
+
+.header-contakt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.header-contakt:hover,
+.header-contakt:focus {
+  color: var(--color-ocean);
+}
+
+.hero {
+  background-color: var(--color-novy-blue);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.hero-button {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  cursor: pointer;
+  background-color: var(--color-iris);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
+}
+
+.header-button {
+  font-family: var(--primary-font);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--color-iris);
+  background-color: var(--color-cornflower);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-iris);
+}
+
+.features {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+}
+.features-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: var(--color-slate);
+}
+.benefits-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Our Team */
+.team {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-items {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.team-description {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* footer */
+.footer-bloc {
+  background-color: var(--color-novy-blue);
+}
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--color-cloud);
+}
+
+.footer-logo-blue {
+  color: var(--color-iris);
+}
+.logo-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+
+  /* CORNFLOWER */
+
+  color: var(--color-cornflower);
+}
+
+/* portfolio */
+.portfolio-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
