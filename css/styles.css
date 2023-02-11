@@ -358,8 +358,8 @@ header {
 .btn-flex {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  
+  margin-bottom: 72px;
   padding-left: 0px;
 }
 
@@ -402,5 +402,5 @@ header {
 }
 
 .button {
-  padding-top: 0;
+  padding-top: 96px;
 }
